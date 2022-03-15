@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>ICT PROJECT</title>
+    <link rel="stylesheet" href="STYLE.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub4-header">
+    <nav>
+        <a href="INDEX.HTML"><img src="logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.HTML">HOME</a></li>
+                <li><a href="index%20(2).HTML">ABOUT</a></li>
+                <li><a href="index%20(3).HTML">ICT Lessons</a></li>
+                <li><a href="index%20(5).HTML">ICT Outputs</a></li>
+                <li><a href="index%20(4).HTML">Reflection</a></li>
+                <li><a href="">Vlogs</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+<!------ Ict Outpts ------->
+<section class="outputs">
+    <h1>ICT Module Outputs</h1>
+    <div class="row">
+        <div class="outputs-col">
+            <h3>Jhon Mikael Badajos</h3>
+            <img src="Hnet.com-image.jpg">
+            <br>
+            <img src="Hnet.com-image.jpg">
+        </div>
+        <div class="outputs-col">
+            <h3>Henry James Nambadatac</h3>
+            <img src="Hnet.com-image.jpg">
+        </div>
+    </div>
+</section>
+<!------- Footer --------->
+
+<section class="footer">
+    <h4>"Its About Tribe, Its About Power, We Stay Hungry, We Devour, Put In The Work, Put In The Hours, And Take What's Ours"</h4>
+</section>
+
+
+
+
+<!-----------JavaScript for Toggle Menu------------>
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>
+
+
+</section>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>ICT PROJECT</title>
+    <link rel="stylesheet" href="STYLE.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub1-header">
+    <nav>
+        <a href="INDEX.HTML"><img src="logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.HTML">HOME</a></li>
+                <li><a href="index%20(2).HTML">ABOUT</a></li>
+                <li><a href="index%20(3).HTML">ICT Lessons</a></li>
+                <li><a href="index%20(5).HTML">ICT Outputs</a></li>
+                <li><a href="index%20(4).HTML">Reflection</a></li>
+                <li><a href="">Vlogs</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<!---------- members -------->
+<section class="members">
+    <h1>About Us</h1>
+    <p>(Point the cursor to the picture to see the information)</p>
+    
+    <div class="row">
+        <div class="members-col">
+            <img src="Badajos.JPG">
+            <div class="layer">
+                <h3>Hi, I am JHON MIKAEL V. BADAJOS, I am 16 years old, and I am a boy who was born in Bukidnon, Malaybalay City on December 15 2005, as a second son of 5 children. My father's name is Miguel Badajos and my mother's name is Johncey Badajos.<br>The short story, I started to study at school, I graduated from kindergarten named Bukidnon State University from 2010-2012, Elementary School still at Bukidnon State University from 2012-2017. High school, 3 years at San Isidro Collage, and now I transfered and studying at Bukidnon National Highschool, I started it from 2021 until now.<br>My Hobby is playing video games and reading manga, I really love playing video games because its the only way to make myself happy. Besides that, I also love reading manga that makes me feel include in the story is presented.</h3>
+            </div>
+        </div>
+        <div class="members-col">
+            <img src="Nambatac.JPG">
+            <div class="layer">
+                <h3>My name is Henry James Nambatac. I was born August 14, 2004, in Malaybalay City. My mother's name is Shati Nambatac, and I have 1 sister, Phia Nambatac. Graduated Elementary at Malaybalay City Central School from 2012-2017, while there I participated basketball. In seventh grade until now I was enrolled at Bukidnon National Highschool and still studying and learning.<br>My Hobby is playing video games and reading manga, I really love playing video games because its the only way to make myself happy. Besides that, I also love reading manga that makes me feel include in the story is presented.</h3>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+<!------- Footer --------->
+
+<section class="footer">
+    <h4>"Its About Tribe, Its About Power, We Stay Hungry, We Devour, Put In The Work, Put In The Hours, And Take What's Ours"</h4>
+</section>
+
+
+
+
+<!-----------JavaScript for Toggle Menu------------>
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>
+
+
+</section>
+</body>
+</html>
